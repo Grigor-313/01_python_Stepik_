@@ -14,3 +14,4 @@ Sample Output:
 c = input().replace('=', ' ').split(' ')
 d = dict([[c[i], int(c[i + 1])] for i in range(0, len(c), 2)])
 print(*sorted(d.items()))
+print(d)
